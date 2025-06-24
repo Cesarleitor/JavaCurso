@@ -4,7 +4,7 @@ public class SwitchSemBreak {
 
     public static void main(String[] args) {
 
-        String faixa = "verde";
+        String faixa = "preta";
 
         switch (faixa.toLowerCase()) {
             case "branca":
@@ -47,7 +47,7 @@ public class SwitchSemBreak {
                     System.out.println("sabe andar");
                     case 0:
                     System.out.println("sabe respirar");
-                } 
+                }  
         }
          
     }
