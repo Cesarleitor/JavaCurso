@@ -1,5 +1,4 @@
 
-import javax.print.DocFlavor;
 
 public class SwitchSemBreak {
 
@@ -48,7 +47,7 @@ public class SwitchSemBreak {
                     System.out.println("sabe andar");
                     case 0:
                     System.out.println("sabe respirar");
-                }
+                } 
         }
          
     }
