@@ -5,9 +5,9 @@ public class DataTest {
     public static void main(String[] args) {
         
         Data d1 = new Data(1, 1, 1970);
-        //d1.dia = 1;
-        //d1.mes = 4;
-        //d1.ano = 1987;
+        d1.dia = 1;
+        d1.mes = 4;
+        d1.ano = 1987;
         
         var d2 = new Data(25, 12, 2023);
         
