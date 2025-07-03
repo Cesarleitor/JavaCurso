@@ -8,17 +8,20 @@ public class Usuario {
         this.nome = nome;
     }
 
+    @Override
     public String toString() {
         return "Meu nome é:" + this.nome + " . ";
     }
 
   
+    @Override
     public int hashCode() {
         int hash = 3;
         return hash;
     }
 
     
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) {
             return true;
@@ -30,7 +33,11 @@ public class Usuario {
             return false;
         }
         final Usuario other = (Usuario) obj;
-        return true;
+        if (this.nome == null) {
+            return other.nome == null;
+        } else {
+            return this.nome.equals(other.nome);
+        }
     }
 
 
