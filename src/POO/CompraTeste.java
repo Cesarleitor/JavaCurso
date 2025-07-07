@@ -1,4 +1,4 @@
-package POO;
+package Poo;
 
 public class CompraTeste {
 

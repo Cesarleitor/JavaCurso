@@ -1,4 +1,4 @@
-package POO.Desafio;
+package Poo.Desafio;
 
 public class Item {
 

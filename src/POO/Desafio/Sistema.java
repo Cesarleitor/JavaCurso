@@ -1,7 +1,4 @@
-
-import POO.Desafio.Cliente;
-import POO.Desafio.Compra;
-import POO.Desafio.Produto;
+package Poo.Desafio;
 
 public class Sistema {
 
