@@ -42,7 +42,7 @@ public class Jogador {
             break;
             case OESTE:
             x--;
-            break;
+            break; 
 
 
         }
