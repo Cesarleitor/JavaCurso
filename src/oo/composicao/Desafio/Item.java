@@ -1,4 +1,4 @@
-package Poo.Desafio;
+package oo.composicao.Desafio;
 
 public class Item {
 
