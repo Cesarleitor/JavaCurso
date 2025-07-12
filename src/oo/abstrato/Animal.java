@@ -7,5 +7,6 @@ public abstract  class Animal {
     }
 
     public abstract double mover();
+    public abstract String mamar();
 
 }
