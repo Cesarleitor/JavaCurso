@@ -2,11 +2,12 @@ package oo.abstrato;
 
 public abstract  class Mamifero extends Animal {
 
-    @Override
-    public abstract String mamar(); 
+    public Mamifero(String nome) {
+        super(nome);
+    }
 
+    public void alimentar() {
+        System.out.println(nome + " está mamando");
+    }
 
-    
-
-   
-}
+    }

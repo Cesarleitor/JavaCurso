@@ -1,12 +1,14 @@
 package oo.abstrato;
 
-public abstract  class Animal {
+public abstract  class Animal { 
 
-    public String respirar() {
-        return "CO2";
+    public String nome;
+
+    public Animal(String nome) {
+        this.nome = nome;
     }
 
-    public abstract double mover();
-    public abstract String mamar();
-
+    public abstract void mover();
+    public abstract void alimentar();
 }
+

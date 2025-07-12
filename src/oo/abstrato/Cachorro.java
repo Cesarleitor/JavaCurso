@@ -2,15 +2,17 @@ package oo.abstrato;
 
   public class Cachorro extends Mamifero {
 
-    @Override
-    public String mover() {
-        return "Usando as patas";
-    }
 
+   public Cachorro(String nome) {
+    super(nome);
 
-    @Override
-    public String mamar() {
-        return "Usando leite";
-    }
+   }
+
+   @Override
+   public void mover() {
+   System.out.println(nome + " está correndo");
+
+   }
+
 
 }
