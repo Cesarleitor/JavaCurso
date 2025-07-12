@@ -1,6 +1,6 @@
 package oo.heranca.desafio;
 
-public class Ferrari extends Carro implements Esportivo, luxo {
+public class Ferrari extends Carro implements Esportivo, Luxo {
 
     private boolean ligarTurbo;
     private boolean ligarAr;
@@ -14,18 +14,22 @@ public class Ferrari extends Carro implements Esportivo, luxo {
         setDelta(15);
     }
 
+    @Override
     public void ligarTurbo() {
         ligarTurbo = true;
     }
 
+    @Override
     public void desligarturbo() {
         ligarTurbo = false;
     }
+    @Override
     public void ligarAr() {
         ligarAr = true;
 
 
     }
+    @Override
     public void desligarAr() {
         ligarAr = false;
 

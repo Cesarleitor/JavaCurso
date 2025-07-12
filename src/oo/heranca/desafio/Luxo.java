@@ -1,6 +1,6 @@
 package oo.heranca.desafio;
 
-public abstract class Luxo {
+public interface Luxo {
 
     abstract void ligarAr();
     abstract void desligarAr();
